@@ -1,27 +1,19 @@
-escape ^]a
+escape ^]]
 
-bell_msg '^GBell in window %n'
-
-width 80
-height 24
-defscrollback 1000000
-
-shell -/bin/bash
-
-screen -t editor
-screen -t shell
-screen -t jslint
-screen -t git
-screen -t top
-screen -t shell
-screen -t shell
-screen -t shell
-screen -t shell
-screen -t shell
-select 1
+screen -t editor    # 0
+screen -t build     # 1
+screen -t admin     # 2
+screen -t services  # 3
+screen -t top       # 4
+screen -t services2 # 5
+screen -t misc      # 6
+screen -t misc2     # 7
+#screen -t remote    # 8
+#screen -t remote2   # 9
 select 0
 
-startup_message off
+shell -bash
+startup_message off 
 hardstatus alwayslastline
 hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR} (%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}] %{=b C}[ %m/%d %c ]%{W}'
 

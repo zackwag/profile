@@ -13,6 +13,7 @@ if [ -z "$USER" ]; then
 fi
 
 export PATH="$PATH:$HOME/bin"
+export LS_OPTS='--color=auto'
 
 load_conf "${PROFILE_PATH}"
 load_conf "${PROFILE_PATH}/${PLATFORM}"
