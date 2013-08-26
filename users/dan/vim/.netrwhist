@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/dan/projects/profile/users/dan'
-let g:netrw_dirhist_2='/home/dan/projects/profile/users'
-let g:netrw_dirhist_3='/home/dan/projects/profile/users/psantaclara'
-let g:netrw_dirhist_4='/home/dan/projects/profile/users/dan'
-let g:netrw_dirhist_5='/home/dan/projects/profile/users'
-let g:netrw_dirhist_6='/home/dan/projects/profile/users/kburton'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/etc/nginx'
+let g:netrw_dirhist_2='/etc/nginx/sites-enabled'
+let g:netrw_dirhist_3='/etc/nginx'
+let g:netrw_dirhist_4='/etc/nginx/conf.d'
+let g:netrw_dirhist_5='/home/dan/Downloads/jre1.7.0_25'
+let g:netrw_dirhist_6='/home/dan/projects/vmtools'
+let g:netrw_dirhist_7='/home/dan/projects'
+let g:netrw_dirhist_8='/home/dan/projects/devtools'

@@ -33,3 +33,8 @@ set backup
 " Set Swap directory
 set directory=~/.vim/backup/swap
 
+
+set tabstop=8
+set shiftwidth=8
+set expandtab 
+
